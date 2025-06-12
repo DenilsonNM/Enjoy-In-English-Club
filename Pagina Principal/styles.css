@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+.ancho {
+  max-width: 1200px;
+  margin:auto;
+  border: 1px red solid;
+}
+.margen {
+  padding: 15px;
+}
+h1 {
+  text-align: center;
+}
+html{
+  scroll-behavior: smooth;
+}
+.contenedor_cabecera {
+  background-color: #fff;
+  width: 100%;
+  padding: 40px 5%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.logos{
+  display: flex;
+  justify-content: center; /* Centra horizontalmente las imágenes */
+  align-items: center; /* Centra verticalmente las imágenes */
+  margin: 40px 0;
+ 
+}
+.logos img {
+  width: 150px;
+  height: 150px;
+  display: inline-block; /* Añadido */
+  margin-right: 40px;
+}
+
+.contenedor_menu {
+  text-align: center; 
+  background-color: #FBFAFB;
+  width: 100%;
+  padding: 40px 5%;
+}
+
+.contenedor_menu a {
+  margin-right: 10px;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+  color: #333;
+  display: inline-block; /* Añadido */
+}
+.inicio {
+  background-color: #04B8F3;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.contacto {
+  background-color: #ffcc00;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.hero {
+  height: 110vh;
+  background-image: url('imagenes/hero2.png'); 
+  background-size: cover;
+ background-position: top center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+  color: white;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4); 
+  z-index: 1;
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.hero-content p {
+  font-size: 1.2rem;
+}
+.contenedor_pq{
+  background-color: #FBFAFB;
+  width: 100%;
+  padding: 40px 5%;
+  text-align: center;
+}
+.contenedor_pq h1{
+  font: helvetica;
+  font-size: 38px;
+  line-height: 50px;
+}
+.contenedor_pq p{
+  justify-content: center;
+  font: helvetica;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: justify;
+}
+.contenedor_pq img{
+  width: 600px;
+  height: 400px;
+  display: inline-block;
+  
+}
+.contenedor_profesores{
+  width: 100%;
+  padding: 40px 5%;
+  text-align: center;
+}
+.contenedor_profesores h1{
+  font: helvetica;
+  font-size: 38px;
+  line-height: 50px;
+}
+.contenedor_profesores p{
+  justify-content: center;
+  font: helvetica;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: justify;
+}
+.contenedor_profesores img{
+    width: 600px;
+  height: 400px;
+  display: inline-block;
+}
+  .card-custom {
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+  }
+
+  .card-custom:hover {
+    transform: scale(1.03);
+  }
+
+  .alumnos1 {
+    background: linear-gradient(135deg, #00c3ff, #0077ff);
+  }
+
+  .alumnos2 {
+    background: linear-gradient(135deg, #ff8c00, #ff5e00);
+  }
+
+  .alumnos3 {
+    background: linear-gradient(135deg, #4caf50, #2e7d32);
+  }
+
+  .card-custom a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .card-custom h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  .accordion-button::after {
+  color: #ffc107; 
+}
