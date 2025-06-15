@@ -163,5 +163,5 @@ include('header.php')
 <section>
   
 </section>
-
+<h1>Equipo dinamita</h1>
 <?php include('footer.php')?>
