@@ -1,0 +1,78 @@
+:root {
+  --color-1: #fcb43a;
+  --color-2: #23212c;
+  --color-3: #f1f1f1;
+}
+
+/* ------------------------------------- */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+}
+
+body {
+  font-family: Helvetica;
+  -webkit-font-smoothing: antialiased;
+  color: var(--color-2);
+  background-color: var(--color-3);
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--color-2);
+}
+
+/* ------------------------------------- */
+
+header {
+  background-color: var(--color-1);
+  padding: 20px;
+}
+
+.div_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ------------------------------------- */
+
+.nav_main_menu {
+  background-color: var(--color-2);
+  padding: 20px;
+}
+
+.nav_main_menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav_main_menu a {
+  color: var(--color-3);
+}
+
+/* ------------------------------------- */
+.div_parallax {
+  /* background-image: url("/files/background.gif"); */
+  background-image: url("/EnjoyInEnglishClub/imagenes/parallax.png");
+  height: 200px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
