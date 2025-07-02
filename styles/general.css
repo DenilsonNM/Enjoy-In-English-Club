@@ -2,6 +2,7 @@
   --color-1: #fcb43a;
   --color-2: #23212c;
   --color-3: #f1f1f1;
+  --color-4: #0000001a;
 }
 
 /* ------------------------------------- */
@@ -47,6 +48,11 @@ header {
   justify-content: space-between;
 }
 
+.div_social a {
+  font-size: x-large;
+  padding-left: 20px;
+}
+
 /* ------------------------------------- */
 
 .nav_main_menu {
@@ -68,11 +74,26 @@ header {
 /* ------------------------------------- */
 .div_parallax {
   /* background-image: url("/files/background.gif"); */
-  background-image: url("/EnjoyInEnglishClub/imagenes/parallax.png");
-  height: 200px;
+  background-image: url("/imagenes/parallax.png");
+  /* background-image: url("/EnjoyInEnglishClub/imagenes/parallax.png"); */
+  height: 250px;
   width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--color-4);
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* ------------------------------------- */
