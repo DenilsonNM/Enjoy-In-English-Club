@@ -97,3 +97,27 @@ main {
 }
 
 /* ------------------------------------- */
+
+.subtitle {
+  text-align: center;
+  padding: 20px;
+}
+
+.section_beneficios {
+  background-color: var(--color-2);
+  padding: 20px;
+}
+
+.div_beneficios {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.section_beneficios article {
+  background-color: var(--color-3);
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  border-radius: 20px;
+}
