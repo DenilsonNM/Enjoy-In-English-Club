@@ -2,7 +2,7 @@
   --color-1: #fcb43a;
   --color-2: #23212c;
   --color-3: #f1f1f1;
-  --color-4: #0000001a;
+  --color-4: #ffd58e52;
 }
 
 /* ------------------------------------- */
@@ -57,14 +57,14 @@ header {
 
 .nav_main_menu {
   background-color: var(--color-2);
-  padding: 20px;
+  padding: 30px 10px;
 }
 
 .nav_main_menu ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 90px;
 }
 
 .nav_main_menu a {
@@ -76,7 +76,7 @@ header {
   /* background-image: url("/files/background.gif"); */
   background-image: url("/imagenes/parallax.png");
   /* background-image: url("/EnjoyInEnglishClub/imagenes/parallax.png"); */
-  height: 250px;
+  height: 350px;
   width: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -93,19 +93,24 @@ main {
   background-color: var(--color-4);
   border-radius: 20px;
   text-align: center;
-  padding: 20px;
+  padding: 30px;
+}
+
+main i {
+  font-size: xx-large;
 }
 
 /* ------------------------------------- */
 
 .subtitle {
   text-align: center;
-  padding: 20px;
+  padding: 30px;
 }
 
 .section_beneficios {
   background-color: var(--color-2);
-  padding: 20px;
+  padding: 50px 10px;
+  border-bottom: var(--color-1) 30px solid;
 }
 
 .div_beneficios {
@@ -120,4 +125,12 @@ main {
   width: 250px;
   text-align: center;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.div_beneficios i {
+  color: var(--color-1);
+  font-size: xx-large;
 }
