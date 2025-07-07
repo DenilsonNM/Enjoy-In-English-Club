@@ -74,9 +74,7 @@ header {
 
 /* ------------------------------------- */
 .div_parallax {
-  /* background-image: url("/files/background.gif"); */
-  background-image: url("/EnjoyInEnglishClub/imagenes/4.png");
-  /* background-image: url("/EnjoyInEnglishClub/imagenes/parallax.png"); */
+  background-image: url("/Enjoy-In-English-Club/imagenes/4.png");
   height: 350px;
   width: 100%;
   background-attachment: fixed;
