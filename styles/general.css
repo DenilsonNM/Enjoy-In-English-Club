@@ -3,7 +3,8 @@
   --color-2: #27201e;
   --color-3: #f1f1f1;
   --color-4: #ffffffc9;
-  --color-5: #81942e;
+  --color-5: #90a72b;
+  --color-6: #90a72bef;
 }
 
 /* ------------------------------------- */
@@ -21,9 +22,19 @@
 
 body {
   font-family: Helvetica;
+  font-family: "Fredoka", sans-serif;
+  font-size: 18px;
   -webkit-font-smoothing: antialiased;
   color: var(--color-2);
   background-color: var(--color-3);
+}
+
+h1,
+h2,
+h3 {
+
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
 }
 
 button {
@@ -89,7 +100,7 @@ header {
 /* ------------------------------------- */
 .div_parallax {
   background-image: url("/Enjoy-In-English-Club/imagenes/4.png");
-  /* background-image: url("/imagenes/4.png"); */
+  background-image: url("/imagenes/4.png");
   height: 350px;
   width: 100%;
   background-attachment: fixed;
@@ -108,8 +119,8 @@ main {
   text-align: center;
   padding: 30px;
   color: var(--color-2);
-  background-color: var(--color-5);
-  width: 700px;
+  background-color: var(--color-6);
+  width: 800px;
 }
 
 main i {
@@ -144,12 +155,14 @@ main i {
 .section_beneficios article {
   background-color: var(--color-3);
   padding: 20px;
-  width: 250px;
+  width: 280px;
+  height: 250px;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 0px 30px 0px 30px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
+  box-shadow: 9px 10px 0px rgba(0, 0, 0, 0.300);
 }
 
 .div_beneficios i {
@@ -177,12 +190,14 @@ main i {
 
 .div_articles article {
   padding: 20px;
+  text-align: center;
 }
 
 .article_infoextra {
   background-color: var(--color-2);
   color: var(--color-3);
-  border-radius: 20px 0px 0px 20px;
+  box-shadow: 9px 10px 0px rgba(0, 0, 0, 0.300);
+  border-radius: 0px 30px 0px 30px;
 }
 
 .div_articles figure {
@@ -198,8 +213,9 @@ main i {
 
 .section_preg_frec article {
   width: 800px;
-  border-radius: 20px;
+  border-radius: 0px 30px 0px 30px;
   overflow: hidden;
+  box-shadow: 9px 10px 1px rgba(0, 0, 0, 0.300);
 }
 
 .div_sumary {
