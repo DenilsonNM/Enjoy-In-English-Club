@@ -70,9 +70,22 @@ header {
   justify-content: space-between;
 }
 
+.div_title h2 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
 .div_social a {
-  font-size: x-large;
+  font-size: xx-large;
   padding-left: 20px;
+}
+
+.figure_logo {
+  width: 110px;
+  border-radius: 100%;
+  padding: 10px;
+  background-color: var(--color-5);
 }
 
 /* ------------------------------------- */
@@ -162,7 +175,7 @@ main i {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  box-shadow: 9px 10px 0px rgba(0, 0, 0, 0.300);
+  /* box-shadow: 9px 10px 0px rgba(0, 0, 0, 0.300); */
 }
 
 .div_beneficios i {
@@ -171,6 +184,23 @@ main i {
 }
 
 /* ------------------------------------- */
+
+.section_infoextralogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-2);
+  padding: 30px 0px;
+}
+
+.section_infoextralogo figure {
+  width: 300px;
+  /* height: 300px; */
+  border-radius: 100%;
+  background-color: var(--color-5);
+  padding: 30px;
+
+}
 
 .section_infoextra {
   display: flex;
@@ -196,7 +226,7 @@ main i {
 .article_infoextra {
   background-color: var(--color-2);
   color: var(--color-3);
-  box-shadow: 9px 10px 0px rgba(0, 0, 0, 0.300);
+  /* box-shadow: 9px 10px 0px rgba(0, 0, 0, 0.300); */
   border-radius: 0px 30px 0px 30px;
 }
 
@@ -215,7 +245,7 @@ main i {
   width: 800px;
   border-radius: 0px 30px 0px 30px;
   overflow: hidden;
-  box-shadow: 9px 10px 1px rgba(0, 0, 0, 0.300);
+  /* box-shadow: 9px 10px 1px rgba(0, 0, 0, 0.300); */
 }
 
 .div_sumary {
