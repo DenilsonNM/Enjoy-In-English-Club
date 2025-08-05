@@ -4,7 +4,7 @@
   --color-3: #f1f1f1;
   --color-4: #ffffffc9;
   --color-5: #90a72b;
-  --color-6: #90a72bef;
+  --color-6: #aac924e1;
 }
 
 /* ------------------------------------- */
@@ -61,7 +61,7 @@ img {
 
 header {
   background-color: var(--color-1);
-  padding: 20px;
+  padding: 10px;
 }
 
 .div_title {
@@ -73,6 +73,7 @@ header {
 .div_title h2 {
   display: flex;
   align-items: center;
+  font-size: xx-large;
   gap: 15px;
 }
 
@@ -82,10 +83,7 @@ header {
 }
 
 .figure_logo {
-  width: 110px;
-  border-radius: 100%;
-  padding: 10px;
-  background-color: var(--color-5);
+  width: 130px;
 }
 
 /* ------------------------------------- */
@@ -117,7 +115,7 @@ header {
   height: 350px;
   width: 100%;
   background-attachment: fixed;
-  background-position: center;
+  background-position: y;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -134,6 +132,10 @@ main {
   color: var(--color-2);
   background-color: var(--color-6);
   width: 800px;
+}
+
+main p {
+  font-size: 20px;
 }
 
 main i {
@@ -190,16 +192,12 @@ main i {
   align-items: center;
   justify-content: center;
   background-color: var(--color-2);
-  padding: 30px 0px;
+  padding: 10px 0px;
 }
 
 .section_infoextralogo figure {
-  width: 300px;
+  width: 350px;
   /* height: 300px; */
-  border-radius: 100%;
-  background-color: var(--color-5);
-  padding: 30px;
-
 }
 
 .section_infoextra {
@@ -271,6 +269,20 @@ main i {
   list-style: none;
   background-color: var(--color-2);
   color: var(--color-1);
+}
+
+/* ------------------------------------- */
+
+.div_parallax_dos {
+  background-image: url("/Enjoy-In-English-Club/imagenes/4.png");
+  /* background-image: url("/imagenes/4.png"); */
+  height: 150px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 /* ------------------------------------- */
