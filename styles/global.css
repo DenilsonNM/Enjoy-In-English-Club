@@ -1,0 +1,36 @@
+:root {
+  --color-1: #fcb43a;
+  --color-2: #27201e;
+  --color-3: #f1f1f1;
+  --color-4: #ffffffc9;
+  --color-5: #90a72b;
+  --color-6: #aac924e1;
+}
+
+/* ------------------------------------- */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+}
+
+body {
+  font-family: "Fredoka", sans-serif;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  color: var(--color-2);
+  background-color: var(--color-3);
+}
+
+button {
+  cursor: pointer;
+}
+
+/* ------------------------------------- */
+

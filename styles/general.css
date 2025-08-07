@@ -60,7 +60,7 @@ img {
 /* ------------------------------------- */
 
 header {
-  background-color: var(--color-1);
+  background-color: var(--color-3);
   padding: 10px;
 }
 
@@ -105,17 +105,17 @@ header {
 }
 
 .nav_main_menu i {
-  color: var(--color-5);
+  color: var(--color-1);
 }
 
 /* ------------------------------------- */
 .div_parallax {
   background-image: url("/Enjoy-In-English-Club/imagenes/4.png");
-  /* background-image: url("/imagenes/4.png"); */
-  height: 350px;
+  background-image: url("/imagenes/4.png");
+  height: 420px;
   width: 100%;
   background-attachment: fixed;
-  background-position: y;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -173,7 +173,7 @@ main i {
   width: 280px;
   height: 250px;
   text-align: center;
-  border-radius: 0px 30px 0px 30px;
+  border-radius: 0px 30px 30px 30px;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -225,7 +225,7 @@ main i {
   background-color: var(--color-2);
   color: var(--color-3);
   /* box-shadow: 9px 10px 0px rgba(0, 0, 0, 0.300); */
-  border-radius: 0px 30px 0px 30px;
+  border-radius: 0px 30px 30px 30px;
 }
 
 .div_articles figure {
@@ -241,7 +241,7 @@ main i {
 
 .section_preg_frec article {
   width: 800px;
-  border-radius: 0px 30px 0px 30px;
+  border-radius: 0px 30px 30px 30px;
   overflow: hidden;
   /* box-shadow: 9px 10px 1px rgba(0, 0, 0, 0.300); */
 }
@@ -275,7 +275,7 @@ main i {
 
 .div_parallax_dos {
   background-image: url("/Enjoy-In-English-Club/imagenes/4.png");
-  /* background-image: url("/imagenes/4.png"); */
+  background-image: url("/imagenes/4.png");
   height: 150px;
   width: 100%;
   background-attachment: fixed;
