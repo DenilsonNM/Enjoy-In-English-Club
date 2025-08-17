@@ -32,5 +32,153 @@ button {
   cursor: pointer;
 }
 
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--color-2);
+  transition: all .15s linear;
+}
+
+span {
+  font-weight: bold;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+h1,
+h2,
+h3 {
+
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 /* ------------------------------------- */
 
+header {
+  background-color: var(--color-3);
+  padding: clamp(5px, 2vh, 20px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div_headlogo {
+  display: flex;
+  align-items: center;
+}
+
+.div_headlogo h2 {
+  font-size: xx-large;
+}
+
+.figure_logo {
+  width: clamp(50px, 20vh, 200px);
+}
+
+.div_headsocial {
+  display: flex;
+  gap: 1rem;
+  font-size: xx-large;
+}
+
+.div_headsocial a:hover {
+  color: var(--color-5);
+}
+
+/* ------------------------------------- */
+
+.nav_main_menu {
+  background-color: var(--color-2);
+  padding: clamp(5px, 4vh, 40px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.div_btn_bars {
+  display: none;
+}
+
+.nav_main_menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+
+.nav_main_menu a {
+  color: var(--color-3);
+  border-bottom: 1px var(--color-2) solid;
+}
+
+.nav_main_menu i {
+  color: var(--color-1);
+}
+
+.nav_main_menu a:hover {
+  color: var(--color-1);
+  border-bottom: 1px var(--color-1) solid;
+}
+
+/* ------------------------------------- */
+
+
+
+/* ------------------------------------- */
+/* RESPONSIVE */
+/* ------------------------------------- */
+
+@media screen and (max-width: 768px) {
+
+  header {
+    padding: 1vh 3vh;
+  }
+
+  .figure_logo {
+    width: 15vh;
+  }
+
+  .div_headlogo h2 {
+    display: none;
+  }
+
+  .div_headsocial {
+    font-size: x-large;
+  }
+
+  /* ------------------------------------- */
+
+  .div_btn_bars {
+    display: block;
+    width: 100%;
+    padding: clamp(5px, 3vh, 30px);
+    text-align: center;
+    background-color: var(--color-2);
+  }
+
+  .btn_bars {
+    color: var(--color-3);
+  }
+
+  .div_btn_bars i {
+    color: var(--color-1);
+  }
+
+  .nav_main_menu ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 3vh;
+  }
+}
