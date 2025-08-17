@@ -210,6 +210,51 @@ main {
   transform: scale(1.05);
 }
 
+/* ------------------------------------- */
+
+.section_infoextralogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-2);
+  padding: 10px 0px;
+}
+
+.section_infoextralogo figure {
+  width: clamp(80px, 35vh, 350px);
+  /* height: 300px; */
+}
+
+/* ------------------------------------- */
+
+.section_infoextra {
+  background-color: var(--color-1);
+}
+
+.div_articles {
+  padding: clamp(10px, 4vh, 40px);
+  display: flex;
+}
+
+.div_articles article {
+  padding: 4vh;
+  text-align: center;
+}
+
+.article_infoextra {
+  background-color: var(--color-2);
+  color: var(--color-3);
+  border-radius: 0px 30px 30px 30px;
+}
+
+.div_articles figure {
+  width: 100%;
+}
+
+.div_articles img {
+  border-radius: 0px 30px 30px 30px;
+}
+
 
 
 /* ------------------------------------- */
@@ -301,5 +346,16 @@ main {
   .div_beneficios {
     flex-direction: column;
     gap: 3vh;
+  }
+
+  .div_beneficios article {
+    padding: 2vh;
+    gap: 2vh;
+  }
+
+  /* ------------------------------------- */
+
+  .div_articles {
+    flex-direction: column;
   }
 }
