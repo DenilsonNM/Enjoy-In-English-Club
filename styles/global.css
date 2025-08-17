@@ -139,7 +139,7 @@ header {
 
 .div_parallax {
   background-image: url("/Enjoy-In-English-Club/imagenes/4.png");
-  background-image: url("/imagenes/4.png");
+  /* background-image: url("/imagenes/4.png"); */
   height: clamp(100px, 60vh, 600px);
   width: 100%;
   background-attachment: fixed;
