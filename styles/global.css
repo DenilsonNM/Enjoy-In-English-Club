@@ -40,6 +40,7 @@ a {
 }
 
 span {
+  font-family: "Nunito", sans-serif;
   font-weight: bold;
 }
 
@@ -133,7 +134,33 @@ header {
 
 /* ------------------------------------- */
 
+.div_main_parallax {
+  position: relative;
+}
 
+.div_parallax {
+  background-image: url("/Enjoy-In-English-Club/imagenes/4.png");
+  background-image: url("/imagenes/4.png");
+  height: clamp(100px, 60vh, 600px);
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  /* transform: translate(-50%, 0); */
+  border-radius: 0px 40px 0px 0px;
+  text-align: center;
+  padding: clamp(20px, 4vh, 40px);
+  color: var(--color-2);
+  background-color: var(--color-6);
+  width: 800px;
+}
 
 /* ------------------------------------- */
 /* RESPONSIVE */
@@ -185,5 +212,23 @@ header {
     justify-content: center;
     align-items: center;
     gap: 3vh;
+  }
+
+  /* ------------------------------------- */
+
+  .div_parallax {
+    height: 30vh;
+  }
+
+  main {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    /* transform: translate(-50%, 0); */
+    border-radius: 0px;
+    text-align: left;
+    padding: 3vh;
+    background-color: var(--color-6);
+    width: auto;
   }
 }
