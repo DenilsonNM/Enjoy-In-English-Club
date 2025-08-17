@@ -5,6 +5,7 @@
   --color-4: #ffffffc9;
   --color-5: #90a72b;
   --color-6: #aac924e1;
+  --color-7: #27201eda;
 }
 
 /* ------------------------------------- */
@@ -120,7 +121,6 @@ header {
 
 .nav_main_menu a {
   color: var(--color-3);
-  border-bottom: 1px var(--color-2) solid;
 }
 
 .nav_main_menu i {
@@ -129,7 +129,6 @@ header {
 
 .nav_main_menu a:hover {
   color: var(--color-1);
-  border-bottom: 1px var(--color-1) solid;
 }
 
 /* ------------------------------------- */
@@ -163,6 +162,18 @@ main {
 }
 
 /* ------------------------------------- */
+
+.subtitle {
+  text-align: center;
+  padding: clamp(5px, 4vh, 40px);
+  border-top: var(--color-1) 5vh solid;
+}
+
+.subtitle i {
+  color: var(--color-5);
+}
+
+/* ------------------------------------- */
 /* RESPONSIVE */
 /* ------------------------------------- */
 
@@ -186,6 +197,13 @@ main {
 
   /* ------------------------------------- */
 
+  .div_menu {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+
   .div_btn_bars {
     display: block;
     width: 100%;
@@ -198,6 +216,10 @@ main {
     color: var(--color-3);
   }
 
+  .btn_bars:hover {
+    color: var(--color-1);
+  }
+
   .div_btn_bars i {
     color: var(--color-1);
   }
@@ -205,6 +227,9 @@ main {
   .nav_main_menu {
     padding: 2vh;
     display: none;
+    background-color: var(--color-7);
+    position: absolute;
+    width: 100%;
   }
 
   .nav_main_menu ul {
