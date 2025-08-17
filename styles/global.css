@@ -139,7 +139,7 @@ header {
 
 .div_parallax {
   background-image: url("/Enjoy-In-English-Club/imagenes/4.png");
-  /* background-image: url("/imagenes/4.png"); */
+  background-image: url("/imagenes/4.png");
   height: clamp(100px, 60vh, 600px);
   width: 100%;
   background-attachment: fixed;
@@ -166,12 +166,51 @@ main {
 .subtitle {
   text-align: center;
   padding: clamp(5px, 4vh, 40px);
-  border-top: var(--color-1) 5vh solid;
+  border-top: var(--color-1) 4vh solid;
 }
 
 .subtitle i {
   color: var(--color-5);
 }
+
+/* ------------------------------------- */
+
+.section_beneficios {
+  background-color: var(--color-2);
+  padding: clamp(5px, 4vh, 40px);
+}
+
+.div_beneficios {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.section_beneficios article {
+  background-color: var(--color-3);
+  padding: 3vh;
+  width: 280px;
+  height: 250px;
+  text-align: center;
+  border-radius: 0px 30px 30px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3vh;
+  transition: all .15s linear;
+}
+
+.div_beneficios i {
+  color: var(--color-5);
+  font-size: xx-large;
+}
+
+.section_beneficios article:hover {
+  transform: scale(1.05);
+}
+
+
 
 /* ------------------------------------- */
 /* RESPONSIVE */
@@ -255,5 +294,12 @@ main {
     padding: 3vh;
     background-color: var(--color-6);
     width: auto;
+  }
+
+  /* ------------------------------------- */
+
+  .div_beneficios {
+    flex-direction: column;
+    gap: 3vh;
   }
 }
