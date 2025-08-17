@@ -45,10 +45,10 @@
   </header>
 
   <div class="div_btn_bars ancho">
-    <a href="#" class="btn_bars" id="btn-bars-id"><i class="fas fa-bars"></i> Menu</a>
+    <a class="btn_bars" id="btn-bars-id"><i class="fas fa-bars"></i> Menu</a>
   </div>
 
-  <nav class="nav_main_menu">
+  <nav class="nav_main_menu" id="nav-menu-id">
     <ul class="ancho">
       <li><a href="/docs/index.html"><i class="fa-solid fa-house"></i> Inicio</a></li>
       <li><a href="#"><i class="fa-solid fa-book"></i> Cursos</a></li>
@@ -56,6 +56,15 @@
       <li><a href="#"><i class="fa-solid fa-location-dot"></i> Información</a></li>
     </ul>
   </nav>
+
+  <!-- ------------------------------------- -->
+  <!-- ------------------------------------- -->
+
+  <script>
+    $("#btn-bars-id").click(function () {
+      $("#nav-menu-id").slideToggle();
+    });
+  </script>
 
 </body>
 

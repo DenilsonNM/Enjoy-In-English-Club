@@ -162,7 +162,7 @@ header {
   .div_btn_bars {
     display: block;
     width: 100%;
-    padding: clamp(5px, 3vh, 30px);
+    padding: clamp(5px, 2vh, 20px);
     text-align: center;
     background-color: var(--color-2);
   }
@@ -175,10 +175,15 @@ header {
     color: var(--color-1);
   }
 
+  .nav_main_menu {
+    padding: 2vh;
+    display: none;
+  }
+
   .nav_main_menu ul {
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     gap: 3vh;
   }
 }
