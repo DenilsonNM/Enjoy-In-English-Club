@@ -21,6 +21,10 @@
   margin: auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Fredoka", sans-serif;
   font-size: 18px;
@@ -146,6 +150,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  filter: brightness(.75);
 }
 
 main {
@@ -159,6 +164,20 @@ main {
   color: var(--color-2);
   background-color: var(--color-6);
   width: 800px;
+}
+
+.div_main_parallax figure {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: clamp(80px, 45vh, 550px);
+  transition: all .15s linear;
+}
+
+.div_main_parallax figure:hover {
+  transform: translate(-50%, -50%) scale(1.05);
 }
 
 /* ------------------------------------- */
@@ -219,7 +238,7 @@ main {
   align-items: center;
   justify-content: center;
   background-color: var(--color-2);
-  padding: 10px 0px;
+  padding: clamp(10px, 4vh, 40px);
 }
 
 .section_infoextralogo figure {
@@ -318,6 +337,17 @@ main {
 }
 
 /* ------------------------------------- */
+
+.div_btnup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.div_btnup a {
+  color: var(--color-6);
+  font-size: xx-large;
+}
 
 footer {
   background-color: var(--color-2);
