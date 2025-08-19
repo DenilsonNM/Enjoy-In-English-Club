@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 872px) {
 
   header {
     padding: 1vh 3vh;
@@ -81,7 +81,7 @@
   /* ------------------------------------- */
 
   .div_beneficios {
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 3vh;
   }
 
@@ -95,11 +95,4 @@
   .div_articles {
     flex-direction: column;
   }
-
-  /* ------------------------------------- */
-
-  .section_preg_frec {
-    padding: clamp(5px, 4vh, 40px);
-  }
-
 }
