@@ -1,0 +1,105 @@
+@media screen and (max-width: 768px) {
+
+  header {
+    padding: 1vh 3vh;
+  }
+
+  .figure_logo {
+    width: 15vh;
+  }
+
+  .div_headlogo h2 {
+    display: none;
+  }
+
+  .div_headsocial {
+    font-size: x-large;
+  }
+
+  /* ------------------------------------- */
+
+  .div_menu {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+
+  .div_btn_bars {
+    display: block;
+    width: 100%;
+    padding: clamp(5px, 2vh, 20px);
+    text-align: center;
+    background-color: var(--color-2);
+  }
+
+  .btn_bars {
+    color: var(--color-3);
+  }
+
+  .btn_bars:hover {
+    color: var(--color-1);
+  }
+
+  .div_btn_bars i {
+    color: var(--color-1);
+  }
+
+  .nav_main_menu {
+    padding: 2vh;
+    display: none;
+    background-color: var(--color-7);
+    position: absolute;
+    width: 100%;
+  }
+
+  .nav_main_menu ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+  }
+
+  /* ------------------------------------- */
+
+  .div_parallax {
+    height: 30vh;
+  }
+
+  main {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    /* transform: translate(-50%, 0); */
+    border-radius: 0px;
+    text-align: left;
+    padding: 3vh;
+    background-color: var(--color-6);
+    width: auto;
+  }
+
+  /* ------------------------------------- */
+
+  .div_beneficios {
+    flex-direction: column;
+    gap: 3vh;
+  }
+
+  .div_beneficios article {
+    padding: 2vh;
+    gap: 2vh;
+  }
+
+  /* ------------------------------------- */
+
+  .div_articles {
+    flex-direction: column;
+  }
+
+  /* ------------------------------------- */
+
+  .section_preg_frec {
+    padding: clamp(5px, 4vh, 40px);
+  }
+
+}
