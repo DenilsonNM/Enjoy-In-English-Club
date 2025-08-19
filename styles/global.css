@@ -258,12 +258,11 @@ main {
 
 .section_preg_frec {
   background-color: var(--color-2);
-  padding: clamp(5px, 4vh, 40px);
+  padding: clamp(5px, 4vh, 40px) clamp(5px, 30vh, 400px);
 }
 
 .section_preg_frec article {
   border-radius: 0px 30px 30px 30px;
-  padding: 0px 8vh;
   overflow: hidden;
 }
 
@@ -399,33 +398,8 @@ main {
 
   /* ------------------------------------- */
 
-  .section_preg_frec article {
-    border-radius: 0px;
-    padding: 0px 1vh;
+  .section_preg_frec {
+    padding: clamp(5px, 4vh, 40px);
   }
 
-  .div_sumary {
-    padding: clamp(5px, 3vh, 30px);
-    background-color: var(--color-3);
-    color: var(--color-2);
-    border-bottom: 1px var(--color-2) solid;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-
-  }
-
-  .div_sumary i {
-    color: var(--color-5);
-    font-size: xx-large;
-  }
-
-  .ul_detail {
-    display: none;
-    padding: clamp(10px, 3vh, 30px);
-    list-style: none;
-    background-color: var(--color-2);
-    color: var(--color-1);
-  }
 }
