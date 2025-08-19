@@ -293,15 +293,21 @@ main {
 
 /* ------------------------------------- */
 
-.div_parallax_dos {
-  background-image: url("/Enjoy-In-English-Club/imagenes/4.png");
-  background-image: url("/imagenes/4.png");
-  height: clamp(100px, 60vh, 600px);
-  width: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.a_hotmart {
+  text-decoration: underline;
+}
+
+.a_hotmart:hover {
+  color: var(--color-5);
+}
+
+/* ------------------------------------- */
+
+footer {
+  background-color: var(--color-2);
+  padding: 30px;
+  text-align: center;
+  color: var(--color-3);
 }
 
 
