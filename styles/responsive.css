@@ -78,6 +78,10 @@
     width: auto;
   }
 
+  .div_main_parallax figure {
+    width: clamp(80px, 35vh, 550px);
+  }
+
   /* ------------------------------------- */
 
   .div_beneficios {

@@ -40,7 +40,7 @@ button {
 a {
   display: inline-block;
   text-decoration: none;
-  color: var(--color-2);
+  color: var(--color-5);
   transition: all .15s linear;
 }
 
@@ -98,7 +98,7 @@ header {
 }
 
 .div_headsocial a:hover {
-  color: var(--color-5);
+  color: var(--color-2);
 }
 
 /* ------------------------------------- */
@@ -139,6 +139,7 @@ header {
 
 .div_main_parallax {
   position: relative;
+  background-color: var(--color-2);
 }
 
 .div_parallax {
@@ -151,6 +152,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   filter: brightness(.75);
+  border-radius: 0px 60px 0px 0px;
 }
 
 main {
@@ -172,7 +174,7 @@ main {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  width: clamp(80px, 45vh, 550px);
+  width: clamp(80px, 50vh, 550px);
   transition: all .15s linear;
 }
 
