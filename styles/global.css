@@ -150,8 +150,8 @@ header {
 
 .div_parallax {
   background-image: url("/Enjoy-In-English-Club/files/parallax.png");
-  /* background-image: url("/files/parallax.png"); */
-  height: clamp(100px, 60vh, 600px);
+  background-image: url("/files/parallax.png");
+  height: clamp(100px, 60vh, 480px);
   width: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -180,7 +180,7 @@ main {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  width: clamp(80px, 50vh, 550px);
+  width: clamp(80px, 50vh, 480px);
   transition: all .15s linear;
 }
 
@@ -240,20 +240,56 @@ main {
 /* ------------------------------------- */
 
 .section_infoextralogo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: var(--color-2);
   padding: clamp(10px, 4vh, 40px);
 }
 
-.section_infoextralogo figure {
-  width: clamp(80px, 35vh, 350px);
-  transition: all .15s linear;
+.div_carousel {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  color: var(--color-5);
 }
 
-.section_infoextralogo figure:hover {
-  transform: scale(1.05);
+.div_carousel::before,
+.div_carousel::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  z-index: 2;
+}
+
+.div_carousel::before {
+  left: 0;
+  background: linear-gradient(to right, var(--color-2), transparent);
+}
+
+.div_carousel::after {
+  right: 0;
+  background: linear-gradient(to left, var(--color-2), transparent);
+}
+
+.div_carousel .carousel-track {
+  display: flex;
+  animation: scroll 35s linear infinite;
+}
+
+.carousel__item {
+  min-width: 150px;
+  text-align: center;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* ------------------------------------- */
