@@ -43,6 +43,7 @@
 
   .div_btn_bars i {
     color: var(--color-1);
+    font-size: large;
   }
 
   .nav_main_menu {
