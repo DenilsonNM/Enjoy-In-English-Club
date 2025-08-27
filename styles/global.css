@@ -61,11 +61,17 @@ h3 {
 
   font-family: "Nunito", sans-serif;
   font-weight: 800;
+  transition: all .15s linear;
 }
 
 ul {
   list-style: none;
   padding: 0;
+}
+
+i {
+  /* color: var(--color-5); */
+  font-size: xx-large;
 }
 
 /* ------------------------------------- */
@@ -94,7 +100,6 @@ header {
 .div_headsocial {
   display: flex;
   gap: 1rem;
-  font-size: xx-large;
 }
 
 .div_headsocial a:hover {
@@ -129,6 +134,7 @@ header {
 
 .nav_main_menu i {
   color: var(--color-1);
+  font-size: large;
 }
 
 .nav_main_menu a:hover {
@@ -211,7 +217,7 @@ main {
 
 .section_beneficios article {
   background-color: var(--color-3);
-  padding: 3vh;
+  padding: clamp(10px, 3vh, 30px);
   width: 280px;
   height: 250px;
   text-align: center;
@@ -220,13 +226,11 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 3vh;
   transition: all .15s linear;
 }
 
 .div_beneficios i {
   color: var(--color-5);
-  font-size: xx-large;
 }
 
 .section_beneficios article:hover {
@@ -264,7 +268,7 @@ main {
 }
 
 .div_articles article {
-  padding: 4vh;
+  padding: clamp(10px, 6vh, 60px);
   text-align: center;
   transition: all .15s linear;
 }
@@ -301,9 +305,9 @@ main {
 
 .div_sumary {
   padding: clamp(5px, 3vh, 30px);
-  background-color: var(--color-3);
+  background-color: var(--color-1);
   color: var(--color-2);
-  border-bottom: 1px var(--color-2) solid;
+  border-bottom: 3px var(--color-2) solid;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -312,12 +316,11 @@ main {
 }
 
 .div_sumary i {
-  color: var(--color-5);
-  font-size: xx-large;
+  color: var(--color-3);
 }
 
-.div_sumary:hover {
-  background-color: var(--color-1);
+.div_sumary:hover h3 {
+  transform: scale(1.02);
 }
 
 .ul_detail {
@@ -325,7 +328,7 @@ main {
   padding: clamp(10px, 3vh, 30px);
   list-style: none;
   background-color: var(--color-2);
-  color: var(--color-1);
+  color: var(--color-3);
 }
 
 /* ------------------------------------- */
