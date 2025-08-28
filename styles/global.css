@@ -206,9 +206,7 @@ header {
 }
 
 .main_profes figure {
-  width: clamp(100px, 20vh, 200px);
-  border-radius: 50%;
-  margin-bottom: clamp(10px, 2vh, 20px);
+  width: 800px;
 }
 
 /* ------------------------------------- */
