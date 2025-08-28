@@ -206,7 +206,15 @@ header {
 }
 
 .main_profes figure {
-  width: 800px;
+  width: 50%;
+}
+
+.div_main_profes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  text-align: left;
 }
 
 /* ------------------------------------- */
