@@ -161,7 +161,21 @@ header {
   border-radius: 0px 60px 0px 0px;
 }
 
-main {
+.figure_logo_big {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: clamp(80px, 50vh, 480px);
+  transition: all .15s linear;
+}
+
+.figure_logo_big:hover {
+  transform: translate(-50%, -50%) scale(1.05);
+}
+
+.main_index {
   position: absolute;
   bottom: 0;
   left: 10%;
@@ -174,18 +188,27 @@ main {
   width: 800px;
 }
 
-.div_main_parallax figure {
+
+.main_profes {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1;
-  width: clamp(80px, 50vh, 480px);
-  transition: all .15s linear;
+  border-radius: 0px 40px 40px 40px;
+  text-align: center;
+  padding: clamp(20px, 4vh, 40px);
+  color: var(--color-2);
+  background-color: var(--color-6);
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.div_main_parallax figure:hover {
-  transform: translate(-50%, -50%) scale(1.05);
+.main_profes figure {
+  width: clamp(100px, 20vh, 200px);
+  border-radius: 50%;
+  margin-bottom: clamp(10px, 2vh, 20px);
 }
 
 /* ------------------------------------- */
