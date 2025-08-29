@@ -67,7 +67,7 @@
     height: 30vh;
   }
 
-  main {
+  .main_index {
     position: relative;
     bottom: 0;
     left: 0;
@@ -75,12 +75,31 @@
     border-radius: 0px;
     text-align: left;
     padding: 3vh;
-    background-color: var(--color-6);
     width: auto;
   }
 
   .div_main_parallax figure {
     width: clamp(80px, 35vh, 550px);
+  }
+
+  .main_profes {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transform: translate(0, 0);
+    border-radius: 0px;
+    padding: 3vh;
+    width: auto;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+
+  .div_main_profes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    text-align: left;
   }
 
   /* ------------------------------------- */
