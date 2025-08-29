@@ -400,7 +400,7 @@ header {
 }
 
 .ul_detail {
-  /* display: none; */
+  display: none;
   padding: clamp(10px, 3vh, 30px);
   list-style: none;
   background-color: var(--color-2);
