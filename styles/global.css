@@ -4,7 +4,7 @@
   --color-3: #f1f1f1;
   --color-4: #ffffffc9;
   --color-5: #90a72b;
-  --color-6: #abc924f1;
+  --color-6: #abc924e3;
   --color-7: #27201ee3;
 }
 
@@ -53,6 +53,7 @@ img {
   display: block;
   width: 100%;
   height: 100%;
+  transition: all .15s linear;
 }
 
 h1,
@@ -72,6 +73,10 @@ ul {
 i {
   /* color: var(--color-5); */
   font-size: xx-large;
+}
+
+figure {
+  transition: all .15s linear;
 }
 
 /* ------------------------------------- */
@@ -150,7 +155,7 @@ header {
 
 .div_parallax {
   background-image: url("/Enjoy-In-English-Club/files/parallax.png");
-  /* background-image: url("/files/parallax.png"); */
+  background-image: url("/files/parallax.png");
   height: clamp(100px, 60vh, 480px);
   width: 100%;
   background-attachment: fixed;
@@ -168,7 +173,6 @@ header {
   transform: translate(-50%, -50%);
   z-index: 1;
   width: clamp(80px, 50vh, 480px);
-  transition: all .15s linear;
 }
 
 .figure_logo_big:hover {
@@ -202,17 +206,24 @@ header {
   width: 800px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .main_profes figure {
-  width: 50%;
+  width: clamp(80px, 35vh, 250px);
+  border-radius: 100%;
+  overflow: hidden;
+  background-color: var(--color-2);
+}
+
+.main_profes figure img:hover {
+  transform: scale(1.05);
 }
 
 .div_main_profes {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   width: 50%;
   text-align: left;
 }
@@ -389,11 +400,21 @@ header {
 }
 
 .ul_detail {
-  display: none;
+  /* display: none; */
   padding: clamp(10px, 3vh, 30px);
   list-style: none;
   background-color: var(--color-2);
   color: var(--color-3);
+}
+
+.ul_detail li {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+
+.figure_certific {
+  width: clamp(80px, 45vh, 350px);
 }
 
 /* ------------------------------------- */
@@ -412,6 +433,7 @@ header {
   position: fixed;
   bottom: 20px;
   right: 20px;
+  z-index: 1000;
 }
 
 .div_btnup a {
