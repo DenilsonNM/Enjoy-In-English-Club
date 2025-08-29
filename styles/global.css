@@ -419,6 +419,26 @@ header {
 
 .figure_certific {
   width: clamp(80px, 45vh, 350px);
+  overflow: hidden;
+  color: var(--color-1);
+}
+
+.figure_certific img {
+  border-radius: 0px 30px 30px 30px;
+}
+
+.figure_certific img:hover {
+  transform: scale(1.01);
+}
+
+.li_detail_certific {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  row-gap: 20px;
+  flex-wrap: wrap;
 }
 
 /* ------------------------------------- */
