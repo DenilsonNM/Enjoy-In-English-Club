@@ -113,6 +113,10 @@ header {
 
 /* ------------------------------------- */
 
+.div_menu {
+  background-color: var(--color-2);
+}
+
 .nav_main_menu {
   background-color: var(--color-2);
   padding: clamp(5px, 4vh, 40px);
@@ -155,7 +159,7 @@ header {
 
 .div_parallax {
   background-image: url("/Enjoy-In-English-Club/files/parallax.png");
-  background-image: url("/files/parallax.png");
+  /* background-image: url("/files/parallax.png"); */
   height: clamp(100px, 60vh, 480px);
   width: 100%;
   background-attachment: fixed;
