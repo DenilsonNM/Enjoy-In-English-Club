@@ -71,8 +71,8 @@ ul {
 }
 
 i {
-  /* color: var(--color-5); */
   font-size: xx-large;
+  transition: all .15s linear;
 }
 
 figure {
@@ -159,7 +159,7 @@ header {
 
 .div_parallax {
   background-image: url("/Enjoy-In-English-Club/files/parallax.png");
-  /* background-image: url("/files/parallax.png"); */
+  background-image: url("/files/parallax.png");
   height: clamp(100px, 60vh, 480px);
   width: 100%;
   background-attachment: fixed;
@@ -188,7 +188,7 @@ header {
   bottom: 0;
   left: 10%;
   /* transform: translate(-50%, 0); */
-  border-radius: 0px 40px 0px 0px;
+  border-radius: 20px 20px 0 0;
   text-align: center;
   padding: clamp(20px, 4vh, 40px);
   color: var(--color-2);
@@ -202,7 +202,7 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border-radius: 0px 40px 40px 40px;
+  border-radius: 20px;
   text-align: center;
   padding: clamp(20px, 4vh, 40px);
   color: var(--color-2);
@@ -221,7 +221,7 @@ header {
 }
 
 .main_profes figure img:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .div_main_profes {
@@ -265,7 +265,7 @@ header {
   width: 280px;
   height: 250px;
   text-align: center;
-  border-radius: 0px 30px 30px 30px;
+  border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -278,7 +278,7 @@ header {
 }
 
 .section_beneficios article:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 /* ------------------------------------- */
@@ -356,11 +356,11 @@ header {
 .article_infoextra {
   background-color: var(--color-2);
   color: var(--color-3);
-  border-radius: 0px 30px 30px 30px;
+  border-radius: 20px;
 }
 
 .div_articles article:hover {
-  transform: scale(1.03);
+  transform: scale(1.02);
 }
 
 .div_articles figure {
@@ -379,28 +379,34 @@ header {
 }
 
 .section_preg_frec article {
-  border-radius: 0px 30px 30px 30px;
-  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 .div_sumary {
   padding: clamp(5px, 3vh, 30px);
   background-color: var(--color-1);
   color: var(--color-2);
-  border-bottom: 3px var(--color-2) solid;
   display: flex;
+  gap: 10px;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
   transition: all .15s linear;
+  border-radius: 15px;
 }
 
 .div_sumary i {
   color: var(--color-3);
 }
 
-.div_sumary:hover h3 {
-  transform: scale(1.02);
+.div_sumary:hover h3,
+.div_sumary:hover i {
+  transform: scale(1.01);
+  color: var(--color-2);
 }
 
 .ul_detail {
@@ -419,16 +425,17 @@ header {
 
 .figure_certific {
   width: clamp(80px, 45vh, 350px);
-  overflow: hidden;
+  /* overflow: hidden; */
   color: var(--color-1);
 }
 
 .figure_certific img {
-  border-radius: 0px 30px 30px 30px;
+  border-radius: 20px;
 }
 
-.figure_certific img:hover {
+.figure_certific:hover {
   transform: scale(1.01);
+  color: var(--color-3);
 }
 
 .li_detail_certific {
