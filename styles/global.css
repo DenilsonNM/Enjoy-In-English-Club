@@ -403,9 +403,9 @@ header {
   color: var(--color-3);
 }
 
-.div_sumary:hover h3,
+.div_sumary:hover,
 .div_sumary:hover i {
-  transform: scale(1.01);
+  transform: scale(1.02);
   color: var(--color-2);
 }
 
@@ -476,5 +476,13 @@ footer {
   background-color: var(--color-2);
   padding: 30px;
   text-align: center;
+  color: var(--color-3);
+}
+
+/* ------------------------------------- */
+
+.section_acerca_profesor {
+  background-color: var(--color-2);
+  padding: clamp(10px, 4vh, 40px);
   color: var(--color-3);
 }
