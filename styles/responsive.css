@@ -18,19 +18,11 @@
 
   /* ------------------------------------- */
 
-  .div_menu {
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-  }
-
   .div_btn_bars {
     display: block;
     width: 100%;
     padding: clamp(5px, 2vh, 20px);
     text-align: center;
-    background-color: var(--color-2);
   }
 
   .btn_bars {
