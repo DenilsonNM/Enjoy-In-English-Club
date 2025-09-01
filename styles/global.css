@@ -122,7 +122,7 @@ header {
 }
 
 .nav_main_menu {
-  background-color: var(--color-7);
+  /* background-color: var(--color-7); */
   padding: clamp(5px, 4vh, 40px);
   display: flex;
   flex-direction: column;
