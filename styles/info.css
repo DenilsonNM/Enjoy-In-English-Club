@@ -1,0 +1,29 @@
+.ul_infoextra {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ul_infoextra li {
+  display: flex;
+  flex-direction: column;
+}
+
+.ul_infoextra i {
+  font-size: x-large;
+}
+
+.iframe_infoextra {
+  border-radius: 10px;
+  width: clamp(200px, 60vh, 450px);
+  height: clamp(200px, 45vh, 450px);
+}
+
+/* ------------------------------------- */
+
+.article_infoextra_main {
+  background-color: var(--color-2);
+  border-radius: 0;
+  padding: clamp(5px, 4vh, 40px);
+  color: var(--color-1);
+}

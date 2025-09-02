@@ -163,7 +163,7 @@ header {
 
 .div_parallax {
   background-image: url("/Enjoy-In-English-Club/files/parallax.png");
-  /* background-image: url("/files/parallax.png"); */
+  background-image: url("/files/parallax.png");
   height: clamp(100px, 60vh, 480px);
   width: 100%;
   background-attachment: fixed;
@@ -198,6 +198,7 @@ header {
   color: var(--color-2);
   background-color: var(--color-6);
   width: 800px;
+  text-align: left;
 }
 
 
@@ -219,6 +220,7 @@ header {
 
 .main_profes figure {
   width: clamp(80px, 35vh, 250px);
+  height: clamp(80px, 35vh, 250px);
   border-radius: 100%;
   overflow: hidden;
   background-color: var(--color-2);
@@ -349,12 +351,16 @@ header {
 .div_articles {
   padding: clamp(10px, 4vh, 40px);
   display: flex;
+  justify-content: space-evenly;
 }
 
 .div_articles article {
   padding: clamp(10px, 6vh, 60px);
-  text-align: center;
+  /* text-align: center; */
   transition: all .15s linear;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .article_infoextra {
