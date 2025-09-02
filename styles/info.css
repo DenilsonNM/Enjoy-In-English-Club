@@ -27,5 +27,39 @@
   padding: clamp(5px, 4vh, 40px);
   color: var(--color-1);
   text-align: center;
+}
 
+/* ------------------------------------- */
+
+.div_gallery {
+  padding: clamp(5px, 4vh, 40px);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.div_gallery figure {
+  width: clamp(250px, 20vw, 300px);
+  height: clamp(150px, 20vh, 300px);
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.div_gallery figure:hover img {
+  transform: scale(1.02);
+}
+
+/* ------------------------------------- */
+
+.subtitle_2 {
+  text-align: center;
+  padding: clamp(5px, 4vh, 40px);
+  background-color: var(--color-2);
+  color: var(--color-3);
+}
+
+.subtitle_2 i {
+  color: var(--color-5);
 }

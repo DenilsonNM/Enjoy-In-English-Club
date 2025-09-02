@@ -29,6 +29,11 @@
   <script src="lib/animations/wow.min.js"></script>
   <link rel="stylesheet" href="lib/animations/animate.css">
 
+  <!-- ------------------------------------- -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.css" />
+
+
 </head>
 
 <!-- ------------------------------------- -->
@@ -79,7 +84,7 @@
   <!-- ------------------------------------- -->
 
   <div class="subtitle">
-    <h2 class="ancho">Detalles <i class="fa-solid fa-map-location-dot"></i>
+    <h2 class="ancho">Ubicación <i class="fa-solid fa-map-location-dot"></i>
     </h2>
   </div>
 
@@ -116,6 +121,15 @@
               Domingo Cerrado
             </p>
           </li>
+          <li>
+            <h3><i class="fa-solid fa-envelope animate__animated animate__pulse animate__infinite"></i> Email:</h3>
+            <p>info@enjoyinenglish.com</p>
+          </li>
+          <li>
+            <h3><i class="fa-solid fa-phone animate__animated animate__pulse animate__infinite"></i> Número de Teléfono:
+            </h3>
+            <p>3334097954</p>
+          </li>
         </ul>
       </article>
 
@@ -128,17 +142,48 @@
           style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </article>
     </div>
-    <article class="article_infoextra_main">
-      <p class="ancho"><i class="fa-solid fa-phone"></i> Número de Teléfono: 3334097954</p>
-    </article>
+    <!-- <article class="article_infoextra_main">
+      <p class="ancho"> Número de Teléfono: 3334097954</p>
+    </article> -->
   </section>
 
   <!-- ------------------------------------- -->
 
-  <div class="subtitle">
-    <h2 class="ancho">GALERÍA <i class="fa-solid fa-images"></i>
+  <div class="subtitle_2">
+    <h2 class="ancho">Galería <i class="fa-solid fa-images"></i>
     </h2>
   </div>
+
+  <section class="section_gallery">
+
+    <div class="div_gallery ancho">
+      <a href="../files/location.png" data-fancybox="gallery" data-caption="Escuela de inglés">
+        <figure class="img1">
+          <img src="../files/location.png" alt="">
+        </figure>
+      </a>
+      <a href="../files/clase1.jpeg" data-fancybox="gallery" data-caption="clase 1">
+        <figure class="img2">
+          <img src="../files/clase1.jpeg" alt="">
+        </figure>
+      </a>
+      <a href="../files/clase2.jpeg" data-fancybox="gallery" data-caption="clase 2">
+        <figure class="img3">
+          <img src="../files/clase2.jpeg" alt="">
+        </figure>
+      </a>
+      <a href="../files/clase3.jpeg" data-fancybox="gallery" data-caption="clase 3">
+        <figure class="img4">
+          <img src="../files/clase3.jpeg" alt="">
+        </figure>
+      </a>
+      <a href="../files/clase4.jpeg" data-fancybox="gallery" data-caption="clase 4">
+        <figure class="img5">
+          <img src="../files/clase4.jpeg" alt="">
+        </figure>
+      </a>
+    </div>
+  </section>
 
 
   <!-- ------------------------------------- -->
@@ -164,6 +209,12 @@
 
   <script src="js/sumarydetail.js">
   </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.umd.js"></script>
+  <script>
+    Fancybox.bind('[data-fancybox="gallery"]', {});
+  </script>
+
 
 </body>
 
