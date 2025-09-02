@@ -9,7 +9,7 @@
   flex-direction: column;
 }
 
-.ul_infoextra i {
+.section_infoextra i {
   font-size: x-large;
 }
 
@@ -26,4 +26,6 @@
   border-radius: 0;
   padding: clamp(5px, 4vh, 40px);
   color: var(--color-1);
+  text-align: center;
+
 }
