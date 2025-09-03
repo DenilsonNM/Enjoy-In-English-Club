@@ -60,6 +60,10 @@ img {
   transition: all .15s linear;
 }
 
+figure img:hover {
+  transform: scale(1.02);
+}
+
 h1,
 h2,
 h3 {
@@ -227,10 +231,6 @@ header {
   height: clamp(80px, 35vh, 250px);
   border-radius: 100%;
   background-color: var(--color-2);
-}
-
-.main_profes figure img:hover {
-  transform: scale(1.02);
 }
 
 .div_main_profes {
