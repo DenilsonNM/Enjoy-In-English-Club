@@ -49,6 +49,10 @@ span {
   font-weight: bold;
 }
 
+figure {
+  overflow: hidden;
+}
+
 img {
   display: block;
   width: 100%;
@@ -222,7 +226,6 @@ header {
   width: clamp(80px, 35vh, 250px);
   height: clamp(80px, 35vh, 250px);
   border-radius: 100%;
-  overflow: hidden;
   background-color: var(--color-2);
 }
 

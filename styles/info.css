@@ -15,7 +15,7 @@
 
 .iframe_infoextra {
   border-radius: 10px;
-  width: clamp(200px, 60vh, 450px);
+  width: clamp(150px, 55vh, 550px);
   height: clamp(200px, 45vh, 450px);
 }
 
@@ -25,8 +25,18 @@
   background-color: var(--color-2);
   border-radius: 0;
   padding: clamp(5px, 4vh, 40px);
-  color: var(--color-1);
-  text-align: center;
+  color: var(--color-3);
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.div_infoextra_img figure {
+  border-radius: 20px;
+  width: clamp(150px, 60vh, 550px);
 }
 
 /* ------------------------------------- */
@@ -35,16 +45,18 @@
   padding: clamp(5px, 4vh, 40px);
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  /* row-gap: 30px; */
+  /* gap: 20px; */
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .div_gallery figure {
   width: clamp(250px, 20vw, 300px);
-  height: clamp(150px, 20vh, 300px);
+  height: clamp(150px, 20vh, 200px);
   overflow: hidden;
   border-radius: 10px;
+  margin: clamp(5px, 1vh, 15px);
 }
 
 .div_gallery figure:hover img {
