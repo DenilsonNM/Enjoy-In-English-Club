@@ -171,7 +171,7 @@ header {
 
 .div_parallax {
   background-image: url("/Enjoy-In-English-Club/files/parallax.png");
-  /* background-image: url("/files/parallax.png"); */
+  background-image: url("/files/parallax.png");
   height: clamp(100px, 60vh, 480px);
   width: 100%;
   background-attachment: fixed;
@@ -370,6 +370,7 @@ header {
   background-color: var(--color-2);
   color: var(--color-3);
   border-radius: 20px;
+  width: 50%;
 }
 
 .div_articles article:hover {

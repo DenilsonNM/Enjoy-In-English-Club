@@ -19,6 +19,14 @@
   height: clamp(200px, 45vh, 450px);
 }
 
+
+.ul_infoextra_online {
+  list-style: outside;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 /* ------------------------------------- */
 
 .article_infoextra_main {
