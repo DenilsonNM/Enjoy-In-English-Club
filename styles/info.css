@@ -49,6 +49,11 @@
 
 /* ------------------------------------- */
 
+.section_gallery {
+  padding: clamp(5px, 4vh, 40px);
+
+}
+
 .div_gallery {
   padding: clamp(5px, 4vh, 40px);
   display: flex;
@@ -56,7 +61,10 @@
   /* row-gap: 30px; */
   /* gap: 20px; */
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  background-color: var(--color-1);
+  width: fit-content;
+  border-radius: 20px;
 }
 
 .div_gallery figure {

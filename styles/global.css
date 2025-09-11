@@ -370,7 +370,7 @@ header {
   background-color: var(--color-2);
   color: var(--color-3);
   border-radius: 20px;
-  width: 50%;
+  /* width: 50%; */
 }
 
 .div_articles article:hover {
