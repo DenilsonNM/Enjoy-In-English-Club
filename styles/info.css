@@ -39,12 +39,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
 }
 
 .div_infoextra_img figure {
   border-radius: 20px;
-  width: clamp(150px, 60vh, 550px);
+  width: clamp(150px, 50vh, 550px);
 }
 
 /* ------------------------------------- */

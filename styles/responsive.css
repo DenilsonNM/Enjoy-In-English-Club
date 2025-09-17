@@ -111,4 +111,15 @@
   .div_articles {
     flex-direction: column;
   }
+
+  /* ------------------------------------- */
+  /* INFO.HTML */
+  /* ------------------------------------- */
+
+
+  .div_infoextra_img {}
+
+  .iframe_infoextra {
+    width: clamp(150px, 50vh, 550px);
+  }
 }
