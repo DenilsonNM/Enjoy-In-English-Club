@@ -5,7 +5,7 @@
   --color-4: #ffffffc9;
   --color-5: #90a72b;
   --color-6: #abc924e3;
-  --color-7: #27201ee3;
+  --color-7: #27201eeb;
 }
 
 /* ------------------------------------- */
@@ -29,8 +29,8 @@ body {
   font-family: "Fredoka", sans-serif;
   font-size: 18px;
   -webkit-font-smoothing: antialiased;
-  color: var(--color-2);
-  background-color: var(--color-3);
+  color: var(--color-3);
+  background-color: var(--color-2);
 }
 
 button {
@@ -90,11 +90,12 @@ figure {
 /* ------------------------------------- */
 
 header {
-  /* background-color: var(--color-3); */
+  background-color: var(--color-2);
   padding: clamp(5px, 2vh, 20px);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 2rem;
 }
 
 .div_headlogo {
@@ -104,10 +105,11 @@ header {
 
 .div_headlogo h2 {
   font-size: xx-large;
+  color: var(--color-3);
 }
 
 .figure_logo {
-  width: clamp(50px, 20vh, 200px);
+  width: clamp(50px, 15vh, 200px);
 }
 
 .div_headsocial {
@@ -116,13 +118,13 @@ header {
 }
 
 .div_headsocial a:hover {
-  color: var(--color-2);
+  color: var(--color-1);
 }
 
 /* ------------------------------------- */
 
 .div_menu {
-  background-color: var(--color-2);
+  /* background-color: var(--color-2); */
   position: sticky;
   top: 0;
   left: 0;
@@ -130,7 +132,7 @@ header {
 }
 
 .nav_main_menu {
-  /* background-color: var(--color-7); */
+  background-color: var(--color-7);
   padding: clamp(5px, 4vh, 40px);
   display: flex;
   flex-direction: column;
@@ -209,6 +211,10 @@ header {
   text-align: left;
 }
 
+.main_index p {
+  font-size: larger;
+  margin: 20px 0;
+}
 
 .main_profes {
   position: absolute;
@@ -246,7 +252,9 @@ header {
 .subtitle {
   text-align: center;
   padding: clamp(5px, 4vh, 40px);
-  border-top: var(--color-1) 4vh solid;
+  background-color: var(--color-3);
+  color: var(--color-2);
+  /* border-top: var(--color-1) 4vh solid; */
 }
 
 .subtitle i {
@@ -256,7 +264,6 @@ header {
 /* ------------------------------------- */
 
 .section_beneficios {
-  background-color: var(--color-2);
   padding: clamp(5px, 4vh, 40px);
 }
 
