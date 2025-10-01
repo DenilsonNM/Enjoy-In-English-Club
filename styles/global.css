@@ -103,11 +103,6 @@ header {
   align-items: center;
 }
 
-.div_headlogo h2 {
-  font-size: xx-large;
-  color: var(--color-3);
-}
-
 .figure_logo {
   width: clamp(50px, 15vh, 200px);
 }
@@ -277,6 +272,7 @@ header {
 
 .section_beneficios article {
   background-color: var(--color-3);
+  color: var(--color-2);
   padding: clamp(10px, 3vh, 30px);
   width: 280px;
   height: 250px;
@@ -290,7 +286,7 @@ header {
 }
 
 .div_beneficios i {
-  color: var(--color-5);
+  color: var(--color-1);
 }
 
 .section_beneficios article:hover {
@@ -300,7 +296,6 @@ header {
 /* ------------------------------------- */
 
 .section_infoextralogo {
-  background-color: var(--color-2);
   padding: clamp(10px, 4vh, 40px);
 }
 
@@ -356,12 +351,14 @@ header {
 
 .section_infoextra {
   background-color: var(--color-1);
+  border-radius: 0px 60px 0px 0px;
 }
 
 .div_articles {
   padding: clamp(10px, 4vh, 40px);
   display: flex;
   justify-content: space-evenly;
+  color: var(--color-2);
 }
 
 .div_articles article {
@@ -434,8 +431,8 @@ header {
   display: none;
   padding: clamp(10px, 3vh, 30px);
   list-style: none;
-  background-color: var(--color-2);
   color: var(--color-3);
+  width: 70%;
 }
 
 .ul_detail li {
