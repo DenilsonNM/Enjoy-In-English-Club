@@ -5,6 +5,7 @@
   --color-4: #ffffffc9;
   --color-5: #90a72b;
   --color-6: #abc924e3;
+  --color-6: #fcb53ac9;
   --color-7: #27201eeb;
 }
 
@@ -104,7 +105,7 @@ header {
 }
 
 .figure_logo {
-  width: clamp(50px, 15vh, 200px);
+  width: clamp(50px, 12vh, 200px);
 }
 
 .div_headsocial {
@@ -168,7 +169,7 @@ header {
 
 .div_parallax {
   background-image: url("/Enjoy-In-English-Club/files/parallax.png");
-  background-image: url("/files/parallax.png");
+  /* background-image: url("/files/parallax.png"); */
   height: clamp(100px, 60vh, 480px);
   width: 100%;
   background-attachment: fixed;
@@ -274,7 +275,7 @@ header {
   background-color: var(--color-3);
   color: var(--color-2);
   padding: clamp(10px, 3vh, 30px);
-  width: 280px;
+  width: 250px;
   height: 250px;
   text-align: center;
   border-radius: 20px;
@@ -283,6 +284,7 @@ header {
   justify-content: center;
   flex-direction: column;
   transition: all .15s linear;
+  gap: 10px;
 }
 
 .div_beneficios i {
@@ -486,7 +488,7 @@ header {
 }
 
 .div_btnup a {
-  color: var(--color-6);
+  color: var(--color-5);
   font-size: xx-large;
 }
 
