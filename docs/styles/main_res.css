@@ -1,0 +1,43 @@
+@media screen and (max-width: 680px) {
+
+  header {
+    justify-content: space-between;
+    gap: 0rem;
+  }
+
+  .div_headlogo h2 {
+    display: none;
+  }
+
+  /* ------------------------------------- */
+
+  .div_btn_bars {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--color-7);
+  }
+
+  .btn_bars:hover {
+    color: var(--color-1);
+  }
+
+  .div_btn_bars i {
+    color: var(--color-1);
+    font-size: large;
+  }
+
+  .nav_main_menu {
+    padding: 0rem 0rem 2rem 2rem;
+    display: none;
+    position: absolute;
+    width: 100%;
+  }
+
+  .nav_main_menu ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+  }
+}
