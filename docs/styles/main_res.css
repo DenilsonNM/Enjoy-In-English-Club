@@ -40,4 +40,19 @@
     align-items: start;
     gap: 2rem;
   }
+
+  /* ------------------------------------- */
+
+  .div_parallax {
+    border-radius: 0px 40px 0px 0px;
+  }
+
+  .main_index {
+    width: 90%;
+  }
+
+  .main_index p {
+    font-size: 1.3rem;
+    margin: 10px 0;
+  }
 }

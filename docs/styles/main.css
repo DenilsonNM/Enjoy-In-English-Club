@@ -46,6 +46,7 @@ a {
 
 span {
   font-weight: bold;
+  font-family: "Nunito", sans-serif;
 }
 
 figure {
@@ -154,4 +155,41 @@ header {
 
 .nav_main_menu a:hover {
   color: var(--color-1);
+}
+
+/* ------------------------------------- */
+
+.div_main_parallax {
+  position: relative;
+}
+
+.div_parallax {
+  background-image: url("/Enjoy-In-English-Club/files/parallax.png");
+  background-image: url("/files/parallax.png");
+  height: clamp(100px, 60vh, 480px);
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(.75);
+  border-radius: 0px 60px 0px 0px;
+}
+
+.main_index {
+  border-radius: 30px 30px 0 0;
+  padding: 2rem;
+  color: var(--color-2);
+  background-color: var(--color-6);
+  width: 800px;
+  width: clamp(600px, 70vw, 800px);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.main_index p {
+  font-size: 1.4rem;
+  margin: 20px 0;
 }
