@@ -85,6 +85,7 @@ ul {
 i {
   font-size: clamp(1.5rem, 1vw, 3rem);
   transition: all .15s linear;
+  font-size: xx-large;
 }
 
 /* ------------------------------------- */
@@ -98,7 +99,6 @@ i {
 
 .subtitle i {
   color: var(--color-5);
-  font-size: xx-large;
 }
 
 /* ------------------------------------- */
@@ -111,6 +111,8 @@ header {
   align-items: center;
   gap: 3rem;
 }
+
+
 
 .div_headlogo {
   display: flex;
@@ -133,6 +135,10 @@ header {
 
 .div_headsocial a:hover {
   color: var(--color-1);
+}
+
+.div_headsocial i {
+  font-size: x-large;
 }
 
 /* ------------------------------------- */
@@ -210,3 +216,33 @@ header {
 }
 
 /* ------------------------------------- */
+
+.div_beneficios {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  text-align: center;
+  align-items: stretch;
+  padding: clamp(10px, 2vw, 40px);
+}
+
+.div_beneficios article {
+  background: var(--color-3);
+  color: var(--color-2);
+  border-radius: 20px;
+  padding: 1.3rem;
+  transition: all .15s linear;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.div_beneficios i {
+  color: var(--color-1);
+}
+
+.section_beneficios article:hover {
+  transform: scale(1.02);
+}

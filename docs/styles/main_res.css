@@ -1,5 +1,9 @@
 @media screen and (max-width: 680px) {
 
+  i {
+    font-size: x-large;
+  }
+
   .subtitle i {
     font-size: x-large;
   }
@@ -61,4 +65,36 @@
     font-size: 1.3rem;
     margin: 10px 0;
   }
+
+  /* ------------------------------------- */
+
+  .div_beneficios {
+    gap: 1rem;
+    padding: 5vw clamp(10px, 2vw, 40px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+  }
+
+  .div_beneficios article {
+    padding: 1rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
