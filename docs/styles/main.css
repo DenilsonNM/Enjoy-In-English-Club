@@ -89,6 +89,21 @@ i {
 
 /* ------------------------------------- */
 
+.subtitle {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--color-3);
+  color: var(--color-2);
+}
+
+.subtitle i {
+  color: var(--color-5);
+  font-size: xx-large;
+}
+
+/* ------------------------------------- */
+
+
 header {
   padding: 1rem;
   display: flex;
@@ -193,3 +208,5 @@ header {
   font-size: 1.4rem;
   margin: 20px 0;
 }
+
+/* ------------------------------------- */

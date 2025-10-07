@@ -1,5 +1,11 @@
 @media screen and (max-width: 680px) {
 
+  .subtitle i {
+    font-size: x-large;
+  }
+
+  /* ------------------------------------- */
+
   header {
     justify-content: space-between;
     gap: 0rem;
