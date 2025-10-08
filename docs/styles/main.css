@@ -73,7 +73,7 @@ h2,
 h3 {
 
   font-family: "Nunito", sans-serif;
-  /* font-weight: 800; */
+  font-weight: 750;
   transition: all .15s linear;
 }
 
@@ -262,7 +262,7 @@ header {
 }
 
 .div_articles figure {
-  width: clamp(150px, 15vw, 300px);
+  width: clamp(200px, 20vw, 300px);
 }
 
 .div_articles h3 {
@@ -348,4 +348,47 @@ header {
   to {
     transform: translateX(-50%);
   }
+}
+
+/* ------------------------------------- */
+
+.section_preg_frec {
+  padding: 2rem;
+}
+
+.section_preg_frec article {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.div_sumary {
+  padding: 1rem;
+  background-color: var(--color-1);
+  color: var(--color-2);
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: all .15s linear;
+  border-radius: 15px;
+}
+
+.div_sumary i {
+  color: var(--color-3);
+}
+
+.div_sumary:hover,
+.div_sumary:hover i {
+  transform: scale(1.02);
+  color: var(--color-2);
+}
+
+.ul_detail {
+  display: none;
+  padding: 0 1.5rem;
+  width: 70%;
 }

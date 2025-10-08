@@ -89,6 +89,13 @@
     flex-wrap: wrap;
   }
 
+  /* ------------------------------------- */
+
+  .ul_detail {
+    padding: 0rem 1rem;
+    width: auto;
+  }
+
 
 
 
