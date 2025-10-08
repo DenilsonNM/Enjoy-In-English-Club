@@ -79,6 +79,16 @@
     padding: 1rem;
   }
 
+  /* ------------------------------------- */
+
+  .section_infoextra {
+    border-radius: 0px 40px 0px 0px;
+  }
+
+  .div_articles {
+    flex-wrap: wrap;
+  }
+
 
 
 
