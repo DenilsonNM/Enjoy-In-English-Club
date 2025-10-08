@@ -392,3 +392,54 @@ header {
   padding: 0 1.5rem;
   width: 70%;
 }
+
+/* ------------------------------------- */
+
+.figure_logo_big {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: clamp(80px, 50vh, 480px);
+}
+
+.figure_logo_big:hover {
+  transform: translate(-50%, -50%) scale(1.02);
+}
+
+/* ------------------------------------- */
+
+/* ------------------------------------- */
+
+.a_hotmart {
+  text-decoration: underline;
+  color: var(--color-5);
+}
+
+.a_hotmart:hover {
+  color: var(--color-1);
+}
+
+/* ------------------------------------- */
+
+.div_btnup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.div_btnup a {
+  color: var(--color-5);
+  font-size: xx-large;
+}
+
+footer {
+  background-color: var(--color-2);
+  padding: 30px;
+  text-align: center;
+  color: var(--color-3);
+}
+
+/* ------------------------------------- */
