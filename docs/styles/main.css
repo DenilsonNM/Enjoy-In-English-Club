@@ -297,3 +297,55 @@ header {
 }
 
 /* ------------------------------------- */
+
+.section_carousel {
+  padding: 2rem;
+}
+
+.div_carousel {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  color: var(--color-5);
+}
+
+.div_carousel::before,
+.div_carousel::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  z-index: 2;
+}
+
+.div_carousel::before {
+  left: 0;
+  background: linear-gradient(to right, var(--color-2), transparent);
+}
+
+.div_carousel::after {
+  right: 0;
+  background: linear-gradient(to left, var(--color-2), transparent);
+}
+
+.div_carousel .carousel-track {
+  display: flex;
+  animation: scroll 35s linear infinite;
+}
+
+.carousel__item {
+  min-width: 150px;
+  text-align: center;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
